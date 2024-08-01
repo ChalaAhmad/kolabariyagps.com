@@ -1,0 +1,10 @@
+        @font-face {
+            font-family: 'SutonnyOMJ';
+            src: url('SutonnyOMJ.ttf') format('truetype');
+        }
+        #date-today {
+            font-size: 30px; /* Make the font size larger */
+            color: black; /* Set text color */
+            text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; /* Add white outline */
+            font-family: 'SutonnyOMJ', sans-serif; /* Apply SutonnyOMJ font */
+        }
