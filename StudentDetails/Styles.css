@@ -1,0 +1,32 @@
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .section {
+            display: none;
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        .search-container {
+            margin: 20px 0;
+        }
+
+        .search-container input {
+            padding: 10px;
+            width: 100%;
+            max-width: 300px;
+            box-sizing: border-box;
+        }
+
+        .section img {
+            max-width: auto%;
+            height: auto;
+        }
+
+        @media (max-width: 600px) {
+            .search-container input {
+                width: 100%;
+            }
+        }
